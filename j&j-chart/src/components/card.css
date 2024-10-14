@@ -1,0 +1,22 @@
+.card {
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(153, 153, 153, 0.3);
+    height: 40%;
+    width: 30%;
+  }
+
+.card-body{
+    height: 85%;
+}
+
+.card-title{
+    padding: 10px 5px 5px 15px;
+    background-color: #ddd;
+}
+
+.card-subtitle{
+    padding-left: 15px;
+    margin:8px 0 20px 0;
+}
+  

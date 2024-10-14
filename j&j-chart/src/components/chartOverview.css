@@ -1,0 +1,7 @@
+.chart-overview{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+}

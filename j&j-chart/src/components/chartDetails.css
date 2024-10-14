@@ -1,0 +1,27 @@
+.chart-details-component{
+    height: 100vh;
+    width: 100vw;
+}
+
+.user-details{
+    /* border: 2px solid red; */
+    height: 20vh;
+    width: 60vw;   
+    padding: 15px 0 0 10px;
+}
+
+.chart-detail-body{
+    height: 70vh;
+    width: 100vw;   
+}
+
+.chart-detail-footer{
+    margin-top:30px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-btn{
+    background-color: rgb(186, 186, 186);
+}
