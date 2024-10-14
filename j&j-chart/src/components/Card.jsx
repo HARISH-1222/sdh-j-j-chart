@@ -2,7 +2,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import ChartOverview from "./ChartOverview"; // Small chart for each card
-import "./Card.css"; // Optional card styles
+import "./card.css";
 
 const Card = ({ id, title, subtitle }) => {
   const navigate = useNavigate();
