@@ -16,9 +16,9 @@ const Card = ({ id, title, subtitle }) => {
       <h3 className="card-title">{title}</h3>
       <div className="card-body">
         <h4 className="card-subtitle">{subtitle}</h4>
-        {/* <div className="card-chart"> */}
-        <ChartOverview id={id} />
-        {/* </div> */}
+        <div className="card-chart">
+          <ChartOverview id={id} />
+        </div>
       </div>
     </div>
   );

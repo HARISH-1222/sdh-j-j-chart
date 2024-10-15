@@ -10,6 +10,11 @@
     height: 85%;
 }
 
+.card-chart{
+    /* border: 2px solid red; */
+    height: 100%;
+}
+
 .card-title{
     padding: 10px 5px 5px 15px;
     background-color: #ddd;
