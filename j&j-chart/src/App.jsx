@@ -12,27 +12,27 @@ const App = () => {
       <div className="chart-detail-title">
         <h2>J&J Analysis Dashboard</h2>
       </div>
-      <h3 style={{ color: "red" }}>Application is on Hold</h3>
-      <div className="blur">
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <div className="card-container">
-                {charts.map((chart) => (
-                  <Card
-                    key={chart.id}
-                    title={chart.title}
-                    subtitle={chart.subtitle}
-                    {...chart}
-                  />
-                ))}
-              </div>
-            }
-          />
-          <Route path="/chart/:id" element={<ChartDetails />} />
-        </Routes>
-      </div>
+      {/* <h3 style={{ color: "red" }}>Application is on Hold</h3> */}
+      {/* <div className="blur"> */}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div className="card-container">
+              {charts.map((chart) => (
+                <Card
+                  key={chart.id}
+                  title={chart.title}
+                  subtitle={chart.subtitle}
+                  {...chart}
+                />
+              ))}
+            </div>
+          }
+        />
+        <Route path="/chart/:id" element={<ChartDetails />} />
+      </Routes>
+      {/* </div> */}
     </Router>
   );
 };
